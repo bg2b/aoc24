@@ -35,3 +35,23 @@ problem unusually fun.  Each of these problems is either ⭐
 (recommended) or ⭐⭐ (highly recommended).
 
 None so far...
+
+## Other years
+
+These are my AoC repositories for previous years (all C++, mostly the
+same format as this year).  Years that I thought were more fun are
+rated with ⭐ or ⭐⭐.
+
++ [2023](https://github.com/bg2b/aoc23) ⭐⭐
++ [2022](https://github.com/bg2b/aoc22) ⭐⭐
++ [2021](https://github.com/bg2b/aoc21) ⭐ You always remember your
+first... \
+(This was the first year I participated live, and I did the solutions
+as two separate parts)
++ [2020](https://github.com/bg2b/aoc20)
++ [2019](https://github.com/bg2b/aoc19) Intcode FTW ⭐⭐
++ [2018](https://github.com/bg2b/aoc18) ⭐⭐
++ [2017](https://github.com/bg2b/aoc17) ⭐ for the advent calendar
+animation alone
++ [2016](https://github.com/bg2b/aoc16) ⭐
++ [2015](https://github.com/bg2b/aoc15)
