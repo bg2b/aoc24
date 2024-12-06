@@ -18,6 +18,11 @@ using namespace std;
 // there are n*(n-1)/2 distinct rules.  I'll just save the ordering
 // relation as a set of pairs.
 //
+// Update: According to my son, his input is _not_ a consistent total
+// order (there are loops).  The example input is.  I'm not sure if
+// that's a mistake; if not, the updates are presumably constructed so
+// that things will be consistent within the pages in each update.
+//
 // It would be possible to sort once and produce an index mapping each
 // number to its position.  That would be a bit faster for processing
 // individual updates.  And since the pages numbers turn out to be all
