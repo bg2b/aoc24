@@ -34,7 +34,10 @@ problem description itself was cute.  In whatever way, I found the
 problem unusually fun.  Each of these problems is either ⭐
 (recommended) or ⭐⭐ (highly recommended).
 
-None so far...
++ [Day 6: Guard Gallivant](https://adventofcode.com/2024/day/6) ⭐
+Brute force works fine, but part 2 needs a little cleverness to be
+really fast
++ [Day 7: Bridge Repair](https://adventofcode.com/2024/day/7) ⭐
 
 ## Other years
 
