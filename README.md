@@ -38,6 +38,7 @@ problem unusually fun.  Each of these problems is either ⭐
 Brute force works fine, but part 2 needs a little cleverness to be
 really fast
 + [Day 7: Bridge Repair](https://adventofcode.com/2024/day/7) ⭐
++ [Day 9: Disk Fragmenter](https://adventofcode.com/2024/day/9) ⭐
 
 ## Other years
 
