@@ -40,6 +40,8 @@ really fast
 + [Day 7: Bridge Repair](https://adventofcode.com/2024/day/7) ⭐
 + [Day 9: Disk Fragmenter](https://adventofcode.com/2024/day/9) ⭐
 + [Day 11: Plutonian Pebbles](https://adventofcode.com/2024/day/11) ⭐
++ [Day 12: Garden Groups](https://adventofcode.com/2024/day/12) ⭐
+There's been a nice group of interesting days
 
 ## Other years
 
