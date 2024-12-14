@@ -42,6 +42,8 @@ really fast
 + [Day 11: Plutonian Pebbles](https://adventofcode.com/2024/day/11) ⭐
 + [Day 12: Garden Groups](https://adventofcode.com/2024/day/12) ⭐
 There's been a nice group of interesting days
++ [Day 14: Restroom Redoubt](https://adventofcode.com/2024/day/14) ⭐⭐
+Wonderful part 2, though definitely a bit open-ended
 
 ## Other years
 
