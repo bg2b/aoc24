@@ -134,8 +134,8 @@ optional<num> cpu::search(num A) {
     if (A + i == 0)
       // Avoid infinite recursion
       continue;
+    // This digit is OK, look for the rest
     if (auto a = search(8 * (A + i)); a.has_value())
-      // This digit is OK, look for the rest
       return *a;
   }
   return nullopt;
