@@ -7,7 +7,6 @@
 #include <sstream>
 #include <string>
 #include <vector>
-#include <algorithm>
 #include <optional>
 #include <cassert>
 
@@ -42,7 +41,8 @@ struct cpu {
   vector<int> run(optional<num> A = nullopt);
 
   // Search for the minimum self-reproducing value
-  optional<num> search(num A);
+  optional<num> search(num A, size_t level);
+  num search() { return *search(0, code.size() - 1); }
 };
 
 cpu::cpu() {
@@ -118,31 +118,29 @@ vector<int> cpu::run(optional<num> A) {
   return out;
 }
 
-optional<num> cpu::search(num A) {
+optional<num> cpu::search(num A, size_t level) {
   // The idea is that the program is vaguely counter-like, and you can
   // work backwards from the high digits
   for (int i = 0; i < 8; ++i) {
     // Try next digit
-    auto out = run(A + i);
+    auto guess = 8 * A + i;
+    auto out = run(guess);
     assert(out.size() <= code.size());
-    if (!equal(out.begin(), out.end(), code.begin() + (code.size() - out.size())))
-      // High digits won't match, no good
+    if (out[level - (code.size() - out.size())] != code[level])
+      // Didn't match, try next digit
       continue;
-    if (out.size() == code.size())
-      // Found!
-      return A + i;
-    if (A + i == 0)
-      // Avoid infinite recursion
-      continue;
+    if (level == 0)
+      // Solution!
+      return guess;
     // This digit is OK, look for the rest
-    if (auto a = search(8 * (A + i)); a.has_value())
+    if (auto a = search(guess, level - 1); a.has_value())
       return *a;
   }
   return nullopt;
 }
 
 void part1() { print(cpu().run()); }
-void part2() { cout << *cpu().search(0) << '\n'; }
+void part2() { cout << cpu().search() << '\n'; }
 
 int main(int argc, char **argv) {
   if (argc != 2) {
