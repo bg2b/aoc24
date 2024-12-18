@@ -44,6 +44,8 @@ really fast
 There's been a nice group of interesting days
 + [Day 14: Restroom Redoubt](https://adventofcode.com/2024/day/14) ⭐⭐
 Wonderful part 2, though definitely a bit open-ended
++ [Day 17: Chronospatial Computer](https://adventofcode.com/2024/day/17) ⭐
+Shades of Intcode
 
 ## Other years
 
