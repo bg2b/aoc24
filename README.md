@@ -47,6 +47,8 @@ Wonderful part 2, though definitely a bit open-ended
 + [Day 17: Chronospatial Computer](https://adventofcode.com/2024/day/17) ⭐
 Shades of Intcode
 + [Day 20: Race Condition](https://adventofcode.com/2024/day/20) ⭐⭐
++ [Day 21: Keypad Conundrum](https://adventofcode.com/2024/day/21) A
+spectacularly mind-bending problem, with an elegant solution! ⭐⭐
 
 ## Other years
 
