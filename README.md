@@ -50,6 +50,11 @@ Shades of Intcode
 + [Day 21: Keypad Conundrum](https://adventofcode.com/2024/day/21) A
 spectacularly mind-bending problem, with an elegant solution! ⭐⭐
 
+Overall I rate this year as somewhere between ⭐ and ⭐⭐.  There was
+a very nice stretch of puzzles in the center, but I feel like the
+final few days were a slight letdown.  Still, I enjoyed the look back
+at all the previous contests and eagerly await next year!
+
 ## Other years
 
 These are my AoC repositories for previous years (all C++, mostly the
@@ -69,3 +74,5 @@ as two separate parts)
 animation alone
 + [2016](https://github.com/bg2b/aoc16) ⭐
 + [2015](https://github.com/bg2b/aoc15)
+
+![Advent calendar for 2024](advent.png)
