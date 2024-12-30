@@ -66,7 +66,9 @@ struct gates {
   void get_fanins(string const &wire, set<string> &fanins) const;
 
   // Swap the outputs of two gates
-  void swap_outputs(string const &output1, string const &output2);
+  void swap_outputs(string const &output1, string const &output2) {
+    swap(logic[output1], logic[output2]);
+  }
 
   // Fix everything, return swaps used
   string fix();
@@ -185,13 +187,6 @@ void gates::get_fanins(string const &wire, set<string> &fanins) const {
   auto const &g = logic.at(wire);
   get_fanins(g.in1, fanins);
   get_fanins(g.in2, fanins);
-}
-
-void gates::swap_outputs(string const &output1, string const &output2) {
-  auto g1 = logic.at(output1);
-  auto g2 = logic.at(output2);
-  logic[output1] = g2;
-  logic[output2] = g1;
 }
 
 string gates::fix() {
